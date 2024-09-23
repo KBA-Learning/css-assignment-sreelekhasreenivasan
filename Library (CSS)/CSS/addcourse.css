@@ -1,0 +1,185 @@
+.nav{
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.nav a {
+    text-decoration: none;
+    float: right;
+    padding-right: 40px;
+    color:rgb(16, 60, 207);
+    padding: 26px;
+    font-family: "Sofadi One", system-ui;
+    transition: top 0.3s;
+}
+
+.nav a:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background: linear-gradient(to right, #5b5de4, #e450cb);
+    height: 100vh;
+    margin: 0;
+}
+.div1 img{
+    margin-left: 180px;
+    width: 300px;
+    height: 200px;
+    margin-top: 120px;
+    }
+.div1{
+        display: flex;
+        margin-top: 50px;
+        width: 1280px;
+}
+
+.form{
+    background-color: #f3f0f0ea;
+    padding: 55px;
+    height: 450px;
+    border-radius: 30px;
+    margin-left: 280px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    padding-left: 110px;
+    padding-top: 65px;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.form input{
+    width: 300px;
+    height: 25px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: small;
+    border-radius: 8px;
+}
+.form select{
+    width: 306px;
+    height: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+}
+.des input{
+    width: 300px;
+    height: 25px;
+    border-radius: 8px;
+}
+.button{
+    margin-top: 12px;
+    
+}
+.button input{
+    width: 200px;
+    height: 45px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 49px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.button input:hover{
+background-color: rgb(94, 11, 172);
+font-size: medium;
+
+}
+.img{
+margin-top: 100px;
+margin-right: 250px;
+}
+h4{
+    font-size: small;
+    padding-top: 10px;
+}
+.nav input[type=button]{
+    margin-top: 30px;
+    background-color: blueviolet;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nav input[type=button]:hover{
+    background-color: rgb(103, 32, 170);
+    font-size: medium;
+}
+.nav input[type=text]{
+margin-left: 30px;
+border: 0px;
+width: 350px;
+height: 30px;
+border-radius: 10px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.head{
+    font-size: x-large;
+    color: rebeccapurple;
+    padding-left: 110px;
+}
+.container{
+    background-color: #f3f0f0ea;
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.box{
+    background-color: blueviolet;
+    width: 70px;
+    height: 30px;
+border: 0px;
+color: aliceblue;
+}
+.box:hover{
+    background-color: rgb(94, 11, 172);
+
+}
+
+.tex{
+    width: 240px;
+    height: 30px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.text{
+    width: 250px;
+    height: 30px;
+}
+.sign{
+    background-color: blueviolet;
+    width: 60px;
+    height: 30px;
+    border: 0px;
+}
+.head1{
+    font-size: x-large;
+    color: rebeccapurple;
+    padding-left: 110px;
+}
+.container1{
+    background-color: #f3f0f0ea;
+    width: 300px;
+    height: 390px;
+    padding: 25px;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-left: 450px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

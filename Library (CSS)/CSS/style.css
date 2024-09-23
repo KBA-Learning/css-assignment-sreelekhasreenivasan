@@ -1,0 +1,80 @@
+.nav{
+    margin-right: 10px;
+}
+.nav a {
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+    color:rgb(16, 60, 207);
+    padding-top: 14px;
+    padding: 26px;
+    font-family: "Sofadi One", system-ui;
+    transition: top 0.3s;
+}
+
+.nav a:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background: linear-gradient(to right, #5b5de4, #e450cb);
+    height: 100vh;
+    margin: 0;
+}
+img{
+margin-left: 180px;
+margin-top: 0px;
+width: 400px;
+}
+.div1{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.div1 p{
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 600px;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: "Sofadi One", system-ui;
+    padding-left: 20px;
+    font-style: italic;
+    color: #000000a8;
+    padding: 100px;
+width: 500px;
+} 
+
+.div1 span{
+    padding-left: 280px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(16, 60, 207);
+    font-size: medium;
+} 
+.bounce-btn a{
+    padding: 15px 30px;
+    background-color: #1c73ad;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 200px;
+    display: inline-block;
+    animation: bounce 1s infinite;
+    text-decoration: none;
+    font: 1em sans-serif;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 70%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+}
